@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3917901ADD84D50073C2A9 /* _LARAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917751ADD84D50073C2A9 /* _LARAnnotation.m */; };
+		FB3917911ADD84D50073C2A9 /* _LARAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917771ADD84D50073C2A9 /* _LARAuthor.m */; };
+		FB3917921ADD84D50073C2A9 /* _LARBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917791ADD84D50073C2A9 /* _LARBook.m */; };
+		FB3917931ADD84D50073C2A9 /* _LARLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39177B1ADD84D50073C2A9 /* _LARLocalization.m */; };
+		FB3917941ADD84D50073C2A9 /* _LARPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39177D1ADD84D50073C2A9 /* _LARPdf.m */; };
+		FB3917951ADD84D50073C2A9 /* _LARPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39177F1ADD84D50073C2A9 /* _LARPhoto.m */; };
+		FB3917961ADD84D50073C2A9 /* _LARTag.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917811ADD84D50073C2A9 /* _LARTag.m */; };
+		FB3917971ADD84D50073C2A9 /* LARAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917831ADD84D50073C2A9 /* LARAnnotation.m */; };
+		FB3917981ADD84D50073C2A9 /* LARAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917851ADD84D50073C2A9 /* LARAuthor.m */; };
+		FB3917991ADD84D50073C2A9 /* LARBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917871ADD84D50073C2A9 /* LARBook.m */; };
+		FB39179A1ADD84D50073C2A9 /* LARLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3917891ADD84D50073C2A9 /* LARLocalization.m */; };
+		FB39179B1ADD84D50073C2A9 /* LARPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39178B1ADD84D50073C2A9 /* LARPdf.m */; };
+		FB39179C1ADD84D50073C2A9 /* LARPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39178D1ADD84D50073C2A9 /* LARPhoto.m */; };
+		FB39179D1ADD84D50073C2A9 /* LARTag.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39178F1ADD84D50073C2A9 /* LARTag.m */; };
+		FB55CD651AE06840007B8A1D /* yodaReading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB55CD621AE06840007B8A1D /* yodaReading.jpg */; };
+		FB55CD661AE06840007B8A1D /* starYe.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55CD631AE06840007B8A1D /* starYe.png */; };
+		FB55CD671AE06840007B8A1D /* starBla.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55CD641AE06840007B8A1D /* starBla.png */; };
+		FB83296C1AEB9A4700B8012D /* LARPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB83296A1AEB9A4700B8012D /* LARPhotoViewController.m */; };
+		FB83296D1AEB9A4700B8012D /* LARPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB83296B1AEB9A4700B8012D /* LARPhotoViewController.xib */; };
+		FB83296F1AEBD70D00B8012D /* emptyBookCover.png in Resources */ = {isa = PBXBuildFile; fileRef = FB83296E1AEBD70D00B8012D /* emptyBookCover.png */; };
+		FBBFD7CA1ADE5F2000A204A4 /* LARLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD7C91ADE5F2000A204A4 /* LARLibraryViewController.m */; };
+		FBBFD7D71ADE623C00A204A4 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD7D61ADE623C00A204A4 /* UIViewController+Navigation.m */; };
+		FBBFD7DC1ADE658700A204A4 /* LARBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD7DA1ADE658700A204A4 /* LARBooksViewController.m */; };
+		FBBFD7DD1ADE658700A204A4 /* LARBooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBBFD7DB1ADE658700A204A4 /* LARBooksViewController.xib */; };
+		FBCC28B11ADBBF8E002C36BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28B01ADBBF8E002C36BF /* main.m */; };
+		FBCC28B41ADBBF8E002C36BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28B31ADBBF8E002C36BF /* AppDelegate.m */; };
+		FBCC28B61ADBBF8E002C36BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCC28B51ADBBF8E002C36BF /* Images.xcassets */; };
+		FBCC28B91ADBBF8E002C36BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCC28B71ADBBF8E002C36BF /* LaunchScreen.xib */; };
+		FBCC28C51ADBBF8F002C36BF /* HackerBook_v2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28C41ADBBF8F002C36BF /* HackerBook_v2Tests.m */; };
+		FBCC28D21ADC29D1002C36BF /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28D11ADC29D1002C36BF /* AGTCoreDataTableViewController.m */; };
+		FBCC28D51ADC29F5002C36BF /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28D41ADC29F5002C36BF /* AGTCoreDataStack.m */; };
+		FBCC28D81ADC2B74002C36BF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBCC28D61ADC2B74002C36BF /* Model.xcdatamodeld */; };
+		FBD86D471AE4F3F4001859E2 /* LARSimplePDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD86D451AE4F3F4001859E2 /* LARSimplePDFViewController.m */; };
+		FBD86D481AE4F3F4001859E2 /* LARSimplePDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD86D461AE4F3F4001859E2 /* LARSimplePDFViewController.xib */; };
+		FBD86D4B1AE50407001859E2 /* LARAnnotationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD86D4A1AE50407001859E2 /* LARAnnotationsViewController.m */; };
+		FBD86D4F1AE565D0001859E2 /* LARAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD86D4D1AE565D0001859E2 /* LARAnnotationViewController.m */; };
+		FBD86D501AE565D0001859E2 /* LARAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD86D4E1AE565D0001859E2 /* LARAnnotationViewController.xib */; };
+		FBE83C681AE1062D00F29A4F /* LARHackerBookBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE83C671AE1062D00F29A4F /* LARHackerBookBaseClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBCC28BF1ADBBF8F002C36BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCC28A31ADBBF8E002C36BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCC28AA1ADBBF8E002C36BF;
+			remoteInfo = "HackerBook-v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB3917741ADD84D50073C2A9 /* _LARAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARAnnotation.h; sourceTree = "<group>"; };
+		FB3917751ADD84D50073C2A9 /* _LARAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARAnnotation.m; sourceTree = "<group>"; };
+		FB3917761ADD84D50073C2A9 /* _LARAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARAuthor.h; sourceTree = "<group>"; };
+		FB3917771ADD84D50073C2A9 /* _LARAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARAuthor.m; sourceTree = "<group>"; };
+		FB3917781ADD84D50073C2A9 /* _LARBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARBook.h; sourceTree = "<group>"; };
+		FB3917791ADD84D50073C2A9 /* _LARBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARBook.m; sourceTree = "<group>"; };
+		FB39177A1ADD84D50073C2A9 /* _LARLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARLocalization.h; sourceTree = "<group>"; };
+		FB39177B1ADD84D50073C2A9 /* _LARLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARLocalization.m; sourceTree = "<group>"; };
+		FB39177C1ADD84D50073C2A9 /* _LARPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARPdf.h; sourceTree = "<group>"; };
+		FB39177D1ADD84D50073C2A9 /* _LARPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARPdf.m; sourceTree = "<group>"; };
+		FB39177E1ADD84D50073C2A9 /* _LARPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARPhoto.h; sourceTree = "<group>"; };
+		FB39177F1ADD84D50073C2A9 /* _LARPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARPhoto.m; sourceTree = "<group>"; };
+		FB3917801ADD84D50073C2A9 /* _LARTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LARTag.h; sourceTree = "<group>"; };
+		FB3917811ADD84D50073C2A9 /* _LARTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LARTag.m; sourceTree = "<group>"; };
+		FB3917821ADD84D50073C2A9 /* LARAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARAnnotation.h; sourceTree = "<group>"; };
+		FB3917831ADD84D50073C2A9 /* LARAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARAnnotation.m; sourceTree = "<group>"; };
+		FB3917841ADD84D50073C2A9 /* LARAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARAuthor.h; sourceTree = "<group>"; };
+		FB3917851ADD84D50073C2A9 /* LARAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARAuthor.m; sourceTree = "<group>"; };
+		FB3917861ADD84D50073C2A9 /* LARBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARBook.h; sourceTree = "<group>"; };
+		FB3917871ADD84D50073C2A9 /* LARBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARBook.m; sourceTree = "<group>"; };
+		FB3917881ADD84D50073C2A9 /* LARLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARLocalization.h; sourceTree = "<group>"; };
+		FB3917891ADD84D50073C2A9 /* LARLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARLocalization.m; sourceTree = "<group>"; };
+		FB39178A1ADD84D50073C2A9 /* LARPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARPdf.h; sourceTree = "<group>"; };
+		FB39178B1ADD84D50073C2A9 /* LARPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARPdf.m; sourceTree = "<group>"; };
+		FB39178C1ADD84D50073C2A9 /* LARPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARPhoto.h; sourceTree = "<group>"; };
+		FB39178D1ADD84D50073C2A9 /* LARPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARPhoto.m; sourceTree = "<group>"; };
+		FB39178E1ADD84D50073C2A9 /* LARTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARTag.h; sourceTree = "<group>"; };
+		FB39178F1ADD84D50073C2A9 /* LARTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARTag.m; sourceTree = "<group>"; };
+		FB55CD621AE06840007B8A1D /* yodaReading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yodaReading.jpg; sourceTree = "<group>"; };
+		FB55CD631AE06840007B8A1D /* starYe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starYe.png; sourceTree = "<group>"; };
+		FB55CD641AE06840007B8A1D /* starBla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBla.png; sourceTree = "<group>"; };
+		FB8329691AEB9A4700B8012D /* LARPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARPhotoViewController.h; sourceTree = "<group>"; };
+		FB83296A1AEB9A4700B8012D /* LARPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARPhotoViewController.m; sourceTree = "<group>"; };
+		FB83296B1AEB9A4700B8012D /* LARPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LARPhotoViewController.xib; sourceTree = "<group>"; };
+		FB83296E1AEBD70D00B8012D /* emptyBookCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyBookCover.png; sourceTree = "<group>"; };
+		FBBFD7C81ADE5F2000A204A4 /* LARLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARLibraryViewController.h; sourceTree = "<group>"; };
+		FBBFD7C91ADE5F2000A204A4 /* LARLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARLibraryViewController.m; sourceTree = "<group>"; };
+		FBBFD7D51ADE623C00A204A4 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		FBBFD7D61ADE623C00A204A4 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		FBBFD7D81ADE646800A204A4 /* Cons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cons.h; sourceTree = "<group>"; };
+		FBBFD7D91ADE658700A204A4 /* LARBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARBooksViewController.h; sourceTree = "<group>"; };
+		FBBFD7DA1ADE658700A204A4 /* LARBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARBooksViewController.m; sourceTree = "<group>"; };
+		FBBFD7DB1ADE658700A204A4 /* LARBooksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LARBooksViewController.xib; sourceTree = "<group>"; };
+		FBCC28AB1ADBBF8E002C36BF /* HackerBook-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerBook-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCC28AF1ADBBF8E002C36BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCC28B01ADBBF8E002C36BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBCC28B21ADBBF8E002C36BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBCC28B31ADBBF8E002C36BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBCC28B51ADBBF8E002C36BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBCC28B81ADBBF8E002C36BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBCC28BE1ADBBF8F002C36BF /* HackerBook-v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackerBook-v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCC28C31ADBBF8F002C36BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCC28C41ADBBF8F002C36BF /* HackerBook_v2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerBook_v2Tests.m; sourceTree = "<group>"; };
+		FBCC28D01ADC29D1002C36BF /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		FBCC28D11ADC29D1002C36BF /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		FBCC28D31ADC29F5002C36BF /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		FBCC28D41ADC29F5002C36BF /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		FBCC28D71ADC2B74002C36BF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FBD86D441AE4F3F4001859E2 /* LARSimplePDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARSimplePDFViewController.h; sourceTree = "<group>"; };
+		FBD86D451AE4F3F4001859E2 /* LARSimplePDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARSimplePDFViewController.m; sourceTree = "<group>"; };
+		FBD86D461AE4F3F4001859E2 /* LARSimplePDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LARSimplePDFViewController.xib; sourceTree = "<group>"; };
+		FBD86D491AE50407001859E2 /* LARAnnotationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARAnnotationsViewController.h; sourceTree = "<group>"; };
+		FBD86D4A1AE50407001859E2 /* LARAnnotationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARAnnotationsViewController.m; sourceTree = "<group>"; };
+		FBD86D4C1AE565D0001859E2 /* LARAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARAnnotationViewController.h; sourceTree = "<group>"; };
+		FBD86D4D1AE565D0001859E2 /* LARAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARAnnotationViewController.m; sourceTree = "<group>"; };
+		FBD86D4E1AE565D0001859E2 /* LARAnnotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LARAnnotationViewController.xib; sourceTree = "<group>"; };
+		FBE83C661AE1062D00F29A4F /* LARHackerBookBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARHackerBookBaseClass.h; sourceTree = "<group>"; };
+		FBE83C671AE1062D00F29A4F /* LARHackerBookBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARHackerBookBaseClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCC28A81ADBBF8E002C36BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCC28BB1ADBBF8F002C36BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3917731ADD6ABA0073C2A9 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				FB3917741ADD84D50073C2A9 /* _LARAnnotation.h */,
+				FB3917751ADD84D50073C2A9 /* _LARAnnotation.m */,
+				FB3917761ADD84D50073C2A9 /* _LARAuthor.h */,
+				FB3917771ADD84D50073C2A9 /* _LARAuthor.m */,
+				FB3917781ADD84D50073C2A9 /* _LARBook.h */,
+				FB3917791ADD84D50073C2A9 /* _LARBook.m */,
+				FB39177A1ADD84D50073C2A9 /* _LARLocalization.h */,
+				FB39177B1ADD84D50073C2A9 /* _LARLocalization.m */,
+				FB39177C1ADD84D50073C2A9 /* _LARPdf.h */,
+				FB39177D1ADD84D50073C2A9 /* _LARPdf.m */,
+				FB39177E1ADD84D50073C2A9 /* _LARPhoto.h */,
+				FB39177F1ADD84D50073C2A9 /* _LARPhoto.m */,
+				FB3917801ADD84D50073C2A9 /* _LARTag.h */,
+				FB3917811ADD84D50073C2A9 /* _LARTag.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		FB55CD611AE0682D007B8A1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB83296E1AEBD70D00B8012D /* emptyBookCover.png */,
+				FB55CD621AE06840007B8A1D /* yodaReading.jpg */,
+				FB55CD631AE06840007B8A1D /* starYe.png */,
+				FB55CD641AE06840007B8A1D /* starBla.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBBFD7CE1ADE60CA00A204A4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFD7D51ADE623C00A204A4 /* UIViewController+Navigation.h */,
+				FBBFD7D61ADE623C00A204A4 /* UIViewController+Navigation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		FBCC28A21ADBBF8E002C36BF = {
+			isa = PBXGroup;
+			children = (
+				FBCC28AD1ADBBF8E002C36BF /* HackerBook-v2 */,
+				FBCC28C11ADBBF8F002C36BF /* HackerBook-v2Tests */,
+				FBCC28AC1ADBBF8E002C36BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCC28AC1ADBBF8E002C36BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC28AB1ADBBF8E002C36BF /* HackerBook-v2.app */,
+				FBCC28BE1ADBBF8F002C36BF /* HackerBook-v2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCC28AD1ADBBF8E002C36BF /* HackerBook-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB55CD611AE0682D007B8A1D /* Resources */,
+				FBBFD7CE1ADE60CA00A204A4 /* Category */,
+				FBCC28CF1ADBF710002C36BF /* Controllers */,
+				FBCC28CE1ADBF705002C36BF /* Models */,
+				FBCC28B21ADBBF8E002C36BF /* AppDelegate.h */,
+				FBCC28B31ADBBF8E002C36BF /* AppDelegate.m */,
+				FBCC28B51ADBBF8E002C36BF /* Images.xcassets */,
+				FBCC28B71ADBBF8E002C36BF /* LaunchScreen.xib */,
+				FBCC28AE1ADBBF8E002C36BF /* Supporting Files */,
+				FBCC28D61ADC2B74002C36BF /* Model.xcdatamodeld */,
+				FBBFD7D81ADE646800A204A4 /* Cons.h */,
+			);
+			path = "HackerBook-v2";
+			sourceTree = "<group>";
+		};
+		FBCC28AE1ADBBF8E002C36BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC28AF1ADBBF8E002C36BF /* Info.plist */,
+				FBCC28B01ADBBF8E002C36BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCC28C11ADBBF8F002C36BF /* HackerBook-v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC28C41ADBBF8F002C36BF /* HackerBook_v2Tests.m */,
+				FBCC28C21ADBBF8F002C36BF /* Supporting Files */,
+			);
+			path = "HackerBook-v2Tests";
+			sourceTree = "<group>";
+		};
+		FBCC28C21ADBBF8F002C36BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC28C31ADBBF8F002C36BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCC28CE1ADBF705002C36BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB3917731ADD6ABA0073C2A9 /* Machine */,
+				FB3917821ADD84D50073C2A9 /* LARAnnotation.h */,
+				FB3917831ADD84D50073C2A9 /* LARAnnotation.m */,
+				FB3917841ADD84D50073C2A9 /* LARAuthor.h */,
+				FB3917851ADD84D50073C2A9 /* LARAuthor.m */,
+				FB3917861ADD84D50073C2A9 /* LARBook.h */,
+				FB3917871ADD84D50073C2A9 /* LARBook.m */,
+				FB3917881ADD84D50073C2A9 /* LARLocalization.h */,
+				FB3917891ADD84D50073C2A9 /* LARLocalization.m */,
+				FB39178A1ADD84D50073C2A9 /* LARPdf.h */,
+				FB39178B1ADD84D50073C2A9 /* LARPdf.m */,
+				FB39178C1ADD84D50073C2A9 /* LARPhoto.h */,
+				FB39178D1ADD84D50073C2A9 /* LARPhoto.m */,
+				FB39178E1ADD84D50073C2A9 /* LARTag.h */,
+				FB39178F1ADD84D50073C2A9 /* LARTag.m */,
+				FBCC28D31ADC29F5002C36BF /* AGTCoreDataStack.h */,
+				FBCC28D41ADC29F5002C36BF /* AGTCoreDataStack.m */,
+				FBE83C661AE1062D00F29A4F /* LARHackerBookBaseClass.h */,
+				FBE83C671AE1062D00F29A4F /* LARHackerBookBaseClass.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FBCC28CF1ADBF710002C36BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC28D01ADC29D1002C36BF /* AGTCoreDataTableViewController.h */,
+				FBCC28D11ADC29D1002C36BF /* AGTCoreDataTableViewController.m */,
+				FBBFD7C81ADE5F2000A204A4 /* LARLibraryViewController.h */,
+				FBBFD7C91ADE5F2000A204A4 /* LARLibraryViewController.m */,
+				FBBFD7D91ADE658700A204A4 /* LARBooksViewController.h */,
+				FBBFD7DA1ADE658700A204A4 /* LARBooksViewController.m */,
+				FBBFD7DB1ADE658700A204A4 /* LARBooksViewController.xib */,
+				FBD86D441AE4F3F4001859E2 /* LARSimplePDFViewController.h */,
+				FBD86D451AE4F3F4001859E2 /* LARSimplePDFViewController.m */,
+				FBD86D461AE4F3F4001859E2 /* LARSimplePDFViewController.xib */,
+				FBD86D491AE50407001859E2 /* LARAnnotationsViewController.h */,
+				FBD86D4A1AE50407001859E2 /* LARAnnotationsViewController.m */,
+				FBD86D4C1AE565D0001859E2 /* LARAnnotationViewController.h */,
+				FBD86D4D1AE565D0001859E2 /* LARAnnotationViewController.m */,
+				FBD86D4E1AE565D0001859E2 /* LARAnnotationViewController.xib */,
+				FB8329691AEB9A4700B8012D /* LARPhotoViewController.h */,
+				FB83296A1AEB9A4700B8012D /* LARPhotoViewController.m */,
+				FB83296B1AEB9A4700B8012D /* LARPhotoViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCC28AA1ADBBF8E002C36BF /* HackerBook-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCC28C81ADBBF8F002C36BF /* Build configuration list for PBXNativeTarget "HackerBook-v2" */;
+			buildPhases = (
+				FBCC28A71ADBBF8E002C36BF /* Sources */,
+				FBCC28A81ADBBF8E002C36BF /* Frameworks */,
+				FBCC28A91ADBBF8E002C36BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackerBook-v2";
+			productName = "HackerBook-v2";
+			productReference = FBCC28AB1ADBBF8E002C36BF /* HackerBook-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCC28BD1ADBBF8F002C36BF /* HackerBook-v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCC28CB1ADBBF8F002C36BF /* Build configuration list for PBXNativeTarget "HackerBook-v2Tests" */;
+			buildPhases = (
+				FBCC28BA1ADBBF8F002C36BF /* Sources */,
+				FBCC28BB1ADBBF8F002C36BF /* Frameworks */,
+				FBCC28BC1ADBBF8F002C36BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCC28C01ADBBF8F002C36BF /* PBXTargetDependency */,
+			);
+			name = "HackerBook-v2Tests";
+			productName = "HackerBook-v2Tests";
+			productReference = FBCC28BE1ADBBF8F002C36BF /* HackerBook-v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCC28A31ADBBF8E002C36BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Luis Aparicio";
+				TargetAttributes = {
+					FBCC28AA1ADBBF8E002C36BF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FBCC28BD1ADBBF8F002C36BF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FBCC28AA1ADBBF8E002C36BF;
+					};
+				};
+			};
+			buildConfigurationList = FBCC28A61ADBBF8E002C36BF /* Build configuration list for PBXProject "HackerBook-v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCC28A21ADBBF8E002C36BF;
+			productRefGroup = FBCC28AC1ADBBF8E002C36BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCC28AA1ADBBF8E002C36BF /* HackerBook-v2 */,
+				FBCC28BD1ADBBF8F002C36BF /* HackerBook-v2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCC28A91ADBBF8E002C36BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB83296F1AEBD70D00B8012D /* emptyBookCover.png in Resources */,
+				FBD86D481AE4F3F4001859E2 /* LARSimplePDFViewController.xib in Resources */,
+				FB83296D1AEB9A4700B8012D /* LARPhotoViewController.xib in Resources */,
+				FBCC28B91ADBBF8E002C36BF /* LaunchScreen.xib in Resources */,
+				FB55CD651AE06840007B8A1D /* yodaReading.jpg in Resources */,
+				FBBFD7DD1ADE658700A204A4 /* LARBooksViewController.xib in Resources */,
+				FB55CD671AE06840007B8A1D /* starBla.png in Resources */,
+				FBCC28B61ADBBF8E002C36BF /* Images.xcassets in Resources */,
+				FB55CD661AE06840007B8A1D /* starYe.png in Resources */,
+				FBD86D501AE565D0001859E2 /* LARAnnotationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCC28BC1ADBBF8F002C36BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCC28A71ADBBF8E002C36BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB39179C1ADD84D50073C2A9 /* LARPhoto.m in Sources */,
+				FB3917931ADD84D50073C2A9 /* _LARLocalization.m in Sources */,
+				FBBFD7D71ADE623C00A204A4 /* UIViewController+Navigation.m in Sources */,
+				FB3917901ADD84D50073C2A9 /* _LARAnnotation.m in Sources */,
+				FBCC28B41ADBBF8E002C36BF /* AppDelegate.m in Sources */,
+				FBCC28B11ADBBF8E002C36BF /* main.m in Sources */,
+				FBBFD7CA1ADE5F2000A204A4 /* LARLibraryViewController.m in Sources */,
+				FBBFD7DC1ADE658700A204A4 /* LARBooksViewController.m in Sources */,
+				FB39179D1ADD84D50073C2A9 /* LARTag.m in Sources */,
+				FB3917961ADD84D50073C2A9 /* _LARTag.m in Sources */,
+				FB3917941ADD84D50073C2A9 /* _LARPdf.m in Sources */,
+				FB3917971ADD84D50073C2A9 /* LARAnnotation.m in Sources */,
+				FB3917991ADD84D50073C2A9 /* LARBook.m in Sources */,
+				FBD86D4F1AE565D0001859E2 /* LARAnnotationViewController.m in Sources */,
+				FB3917911ADD84D50073C2A9 /* _LARAuthor.m in Sources */,
+				FB3917921ADD84D50073C2A9 /* _LARBook.m in Sources */,
+				FBD86D4B1AE50407001859E2 /* LARAnnotationsViewController.m in Sources */,
+				FB39179A1ADD84D50073C2A9 /* LARLocalization.m in Sources */,
+				FB39179B1ADD84D50073C2A9 /* LARPdf.m in Sources */,
+				FB83296C1AEB9A4700B8012D /* LARPhotoViewController.m in Sources */,
+				FBCC28D81ADC2B74002C36BF /* Model.xcdatamodeld in Sources */,
+				FB3917981ADD84D50073C2A9 /* LARAuthor.m in Sources */,
+				FBCC28D51ADC29F5002C36BF /* AGTCoreDataStack.m in Sources */,
+				FBE83C681AE1062D00F29A4F /* LARHackerBookBaseClass.m in Sources */,
+				FB3917951ADD84D50073C2A9 /* _LARPhoto.m in Sources */,
+				FBCC28D21ADC29D1002C36BF /* AGTCoreDataTableViewController.m in Sources */,
+				FBD86D471AE4F3F4001859E2 /* LARSimplePDFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCC28BA1ADBBF8F002C36BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCC28C51ADBBF8F002C36BF /* HackerBook_v2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBCC28C01ADBBF8F002C36BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCC28AA1ADBBF8E002C36BF /* HackerBook-v2 */;
+			targetProxy = FBCC28BF1ADBBF8F002C36BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCC28B71ADBBF8E002C36BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCC28B81ADBBF8E002C36BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCC28C61ADBBF8F002C36BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBCC28C71ADBBF8F002C36BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCC28C91ADBBF8F002C36BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackerBook-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBCC28CA1ADBBF8F002C36BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HackerBook-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBCC28CC1ADBBF8F002C36BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackerBook-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBook-v2.app/HackerBook-v2";
+			};
+			name = Debug;
+		};
+		FBCC28CD1ADBBF8F002C36BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackerBook-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBook-v2.app/HackerBook-v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCC28A61ADBBF8E002C36BF /* Build configuration list for PBXProject "HackerBook-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCC28C61ADBBF8F002C36BF /* Debug */,
+				FBCC28C71ADBBF8F002C36BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCC28C81ADBBF8F002C36BF /* Build configuration list for PBXNativeTarget "HackerBook-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCC28C91ADBBF8F002C36BF /* Debug */,
+				FBCC28CA1ADBBF8F002C36BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCC28CB1ADBBF8F002C36BF /* Build configuration list for PBXNativeTarget "HackerBook-v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCC28CC1ADBBF8F002C36BF /* Debug */,
+				FBCC28CD1ADBBF8F002C36BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBCC28D61ADC2B74002C36BF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBCC28D71ADC2B74002C36BF /* Model.xcdatamodel */,
+			);
+			currentVersion = FBCC28D71ADC2B74002C36BF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBCC28A31ADBBF8E002C36BF /* Project object */;
+}
